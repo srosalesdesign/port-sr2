@@ -1,0 +1,22 @@
+<div class="sections">
+{%- for project in collections.projects -%}
+  <section id="{{ project.data.sectionid }}" class="panel">
+    <div class="panel-content">
+      <div class="inner-panel">
+    <div class="main-image project-element">
+      <a href="{{ project.url }}"><img src="{{ project.data.featuredImage }}" /></a>
+    </div>
+    <div class="title project-element">
+  <h1>{{ project.data.title }}</h1>
+  </div>
+
+  <div class="project-category project-element">
+    <p>{{ project.data.projectcategories }}</p>
+  </div>
+</div>
+</div>
+  </div><!-- end section wrapper -->
+  </section><!-- end panel item -->
+
+{%- endfor -%}
+</div><!-- end sections wrapper -->

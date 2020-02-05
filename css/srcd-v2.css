@@ -1,0 +1,189 @@
+
+/* All visual beyond boilerplate defaults */
+
+body {
+  font-family: 'Cousine', monospace;
+  color: #7f7f7f;
+  font-size: 14px;
+}
+
+#content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+#navigation, .info {
+  display: none;
+}
+
+
+/* Resets */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Helper Classes */
+
+.one-col {
+  width: 24%;
+}
+
+.two-col {
+  width: 45%;
+}
+
+.space-a {
+  margin-top: 2em;
+}
+
+.space-r {
+  margin-right: 2em;
+}
+
+
+
+
+.two-thirds {
+  width: 65%;
+}
+
+.four {
+  width: 40%;
+}
+
+.five {
+  width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.half {
+  width: 46%;
+}
+
+.full {
+  width: 100%;
+}
+
+.img-brace {
+  overflow: auto;
+  margin-bottom: 2em;
+}
+
+
+
+.img-brace img:first-child {
+  padding-right: 2em;
+}
+
+
+/*
+Home
+/*
+
+/* Projects List */
+
+.panel {
+    position: relative;
+    min-height: 100vh;
+
+   }
+
+   .panel-content {
+    opacity: 1;
+   }
+
+   .panel-content.visible {
+    opacity: 1;
+   }
+
+   .main-image {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+   }
+
+
+   .main-image img {
+      display: block;
+      margin: 0 auto;
+      width: 65%;
+   }
+
+   .title {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    bottom: 0;
+
+   }
+
+   .title h1 {
+    font-size: 8rem;
+   }
+
+   .project-category {
+    position: absolute;
+    z-index: 200;
+    width: 263px;
+    left: 0;
+    top: 200px;
+    text-align: right;
+   }
+
+   /*
+   Blog
+   */
+
+   body.t-posts {
+
+    background-color: #ffd3c4;
+   }
+
+  /* hide nav  for now */
+  .t-posts #navigation {
+    display: none;
+  }
+
+   .t-posts #content-wrapper {
+    margin-top: 5em;
+   }
+
+   .posts-wrapper {
+    margin-top: 6em;
+   }
+
+   .post {
+    margin-top: 5em;
+   }
+
+   .post p {
+    margin-top: 0;
+    margin-bottom: 0;
+   }
+
+   .post-content .date {
+    font-size: .9em;
+    margin-bottom: 0;
+   }
+
+   .post-content h4 {
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: .3em;
+    text-decoration: underline;
+
+   }
