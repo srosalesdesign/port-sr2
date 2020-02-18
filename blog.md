@@ -9,7 +9,7 @@ title: "Blog"
 
 <div class="posts-wrapper">
 <ul class="posts">
-{%- for post in collections.post -%}
+{%- for post in collections.post | reverse -%}
   <li class="post"><div class="post-content">
   <p class="date">{{ post.data.datetopost }}</p>
   <h4>{{ post.data.title }}</h4>

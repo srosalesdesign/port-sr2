@@ -2,7 +2,7 @@
 title: "Flag Assignment - Process #1"
 tags: post
 datetopost: "01/11/2020"
-postcategories: "art32, project, process"
+postcategories: "assignments"
 permalink: "subdir/{{ title | slug }}/"
 
 ---
